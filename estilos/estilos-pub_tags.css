@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+.publicaciones_etiquetas{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: 50px;
+    justify-content: center;
+    align-content: center;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.pub_tag{
+    cursor: pointer;
+}
+
+.bold{
+    font-weight: bold;
+}

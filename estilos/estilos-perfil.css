@@ -1,0 +1,68 @@
+/*4 columnas y 3 filas*/
+body{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+.perfil{
+    display: grid;
+    grid-template-columns: 250px 200px 130px 60px 40px;
+    grid-template-rows: 60px 50px 120px;
+    padding-top: 30px;
+    justify-content: center;
+    align-content: center;
+
+    justify-items: start;
+    align-items: start;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.foto_perfil img{
+    border-radius: 100%;
+    border: 5px solid #fff;
+    width: 150px;
+    height: 150px;
+}
+
+.siguiendo{
+    background: #f2f2f2;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    width: 110px;
+    height: 30px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.ver_personas{
+    background: #f2f2f2;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reportar{
+    font-size: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.foto_perfil { 
+    grid-area: 1 / 1 / 4 / 2;
+}
+.nombre { 
+    grid-area: 1 / 2 / 2 / 3; 
+    font-size: 30px;
+}
+.siguiendo_boton { grid-area: 1 / 3 / 2 / 4; }
+.ver_mas_personas { grid-area: 1 / 4 / 2 / 5; }
+.opciones { grid-area: 1 / 5 / 2 / 6; }
+.publicaciones { grid-area: 2 / 2 / 3 / 3; }
+.seguidores { grid-area: 2 / 3 / 3 / 4; }
+.seguidos { grid-area: 2 / 4 / 3 / 6; }
+.biografia { grid-area: 3 / 2 / 4 / 6; } 

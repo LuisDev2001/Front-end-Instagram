@@ -36,3 +36,14 @@ body{
 .follow img{
     width: 200px;
 }
+
+@media screen and (max-width: 1000px){
+    .header{
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: 60px;
+    }
+
+    .follow img{
+        width: 150px;
+    }
+}

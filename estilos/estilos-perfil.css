@@ -66,3 +66,19 @@ body{
 .seguidores { grid-area: 2 / 3 / 3 / 4; }
 .seguidos { grid-area: 2 / 4 / 3 / 6; }
 .biografia { grid-area: 3 / 2 / 4 / 6; } 
+
+@media screen and (max-width: 1000px){
+    .perfil{
+        justify-content: start;
+        align-content: start;
+    }
+
+    .nombre{
+        font-size: 20px;
+    }
+
+    .biografia_texto{
+        font-size: 14px;
+    }
+}
+

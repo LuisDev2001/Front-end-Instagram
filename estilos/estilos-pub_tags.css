@@ -21,3 +21,9 @@ body{
 .bold{
     font-weight: bold;
 }
+
+@media screen and (max-width: 1000px){
+    .pub_tag{
+        font-size: 12px;
+    }
+}
